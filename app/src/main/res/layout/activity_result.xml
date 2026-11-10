@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_resultat_ah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#2E7D32">
+
+    <TextView
+        android:id="@+id/tv_titre_resultat_ah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERDICT TEMPOREL"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/tv_resultat_ah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Résultat du contrôle"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:id="@+id/btn_nouveau_ah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nouveau voyageur"
+        android:textAllCaps="false" />
+
+</LinearLayout>

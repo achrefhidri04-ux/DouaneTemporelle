@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="#EAF0F7">
+
+
+    <ImageView
+        android:id="@+id/img_passeport_ah"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/veri"
+        android:contentDescription="Illustration du passeport temporel"
+        android:scaleType="centerInside"
+        android:background="#D8E2EF"
+        android:padding="12dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/zone_infos_ah"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:padding="12dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tv_titre_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSEPORT TEMPOREL"
+            android:textColor="#172B4D"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tv_nom_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voyageur : "
+            android:textColor="#26364A"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_titre_verif_ah"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:id="@+id/tv_naissance_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Naissance : "
+            android:textColor="#26364A"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_nom_verif_ah"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_destination_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destination : "
+            android:textColor="#26364A"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_naissance_verif_ah"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_age_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Âge temporel : "
+            android:textColor="#26364A"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_destination_verif_ah"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_motif_verif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motif : "
+            android:textColor="#26364A"
+            android:textSize="15sp"
+            android:layout_below="@id/tv_age_verif_ah"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btn_approuver_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approuver le saut temporel"
+            android:textAllCaps="false"
+            android:layout_below="@id/tv_motif_verif_ah"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btn_refuser_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refuser (Risque de paradoxe)"
+            android:textAllCaps="false"
+            android:layout_below="@id/btn_approuver_ah"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

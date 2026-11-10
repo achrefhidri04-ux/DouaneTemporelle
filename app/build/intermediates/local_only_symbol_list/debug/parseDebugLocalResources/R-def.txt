@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+drawable pass
+drawable veri
+id btn_approuver_ah
+id btn_inspecter_ah
+id btn_nouveau_ah
+id btn_refuser_ah
+id edt_destination_ah
+id edt_naissance_ah
+id edt_nom_ah
+id img_passeport_ah
+id layout_resultat_ah
+id sp_motif_ah
+id tv_age_verif_ah
+id tv_destination_verif_ah
+id tv_label_destination_ah
+id tv_label_motif_ah
+id tv_label_naissance_ah
+id tv_label_nom_ah
+id tv_motif_verif_ah
+id tv_naissance_verif_ah
+id tv_nom_verif_ah
+id tv_resultat_ah
+id tv_sous_titre_main_ah
+id tv_titre_main_ah
+id tv_titre_resultat_ah
+id tv_titre_verif_ah
+id zone_infos_ah
+layout activity_main
+layout activity_result
+layout activity_verification

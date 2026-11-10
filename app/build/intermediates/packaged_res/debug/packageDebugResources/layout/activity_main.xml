@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F4F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_titre_main_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DOUANE TEMPORELLE"
+            android:textColor="#172B4D"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/pass"
+            android:scaleType="fitCenter"
+            android:contentDescription="Image Douane"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_sous_titre_main_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formulaire d'enregistrement du voyageur"
+            android:textColor="#52627A"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tv_label_nom_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom du voyageur"
+            android:textColor="#172B4D"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_nom_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exemple : Ahmed"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:id="@+id/tv_label_naissance_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Année de naissance"
+            android:textColor="#172B4D"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_naissance_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exemple : 1990"
+            android:inputType="number"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:id="@+id/tv_label_destination_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Année de destination"
+            android:textColor="#172B4D"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_destination_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exemple : 2050"
+            android:inputType="number"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:id="@+id/tv_label_motif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motif du voyage"
+            android:textColor="#172B4D"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_motif_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp" />
+
+        <Button
+            android:id="@+id/btn_inspecter_ah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inspecter le profil"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>
